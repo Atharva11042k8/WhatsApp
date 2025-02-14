@@ -131,7 +131,7 @@ var d = new Date();
   $(".tick").css("color","#4fc3f7");
   $(".online").text("typing...").css("color","#3d7");
    setTimeout(function(){
-       $(".chatting").append("<div class='re' id='rchat'><span class='rechat'>🖕 bhok me ja</span> <span class='rtime'>"+time+"</span></div>");$(".chatting").scrollTop($(".chatting")[0].scrollHeight);
+       $(".chatting").append("<div class='re' id='rchat'><span class='rechat'>👋 hello</span> <span class='rtime'>"+time+"</span></div>");$(".chatting").scrollTop($(".chatting")[0].scrollHeight);
        $(".online").html("<i class='material-icons dot'>fiber_manual_record</i>Online").css("color","white");
    },2000);},1000)
    };
